@@ -4,15 +4,17 @@
   <meta charset="utf-8">
   
   
-  <title>AI环境配置：vscode+docker+wsl+conda“ | jxWu&#39;s blogs</title>
+  <title>QCnet | jxWu&#39;s blogs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="article">
-<meta property="og:title" content="AI环境配置：vscode+docker+wsl+conda“">
-<meta property="og:url" content="http://example.com/2025/08/18/AI%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%EF%BC%9Avscode-docker-wsl-conda%E2%80%9C/index.html">
+  <meta name="description" content="agent-centric：输入是X &#x3D; [x_1, x_2, …, x_T]其中每个x_i是时间i的融合特征输出是自回归地输出T_futrue个坐标作为未来轨迹[ (c_x^{t+1}, c_y^{t+1}), (c_x^{t+2}, c_y^{t+2}), …, (c_x^{t+T_future}, c_y^{t+T_future}) ] scene-centric query-c">
+<meta property="og:type" content="article">
+<meta property="og:title" content="QCnet">
+<meta property="og:url" content="http://example.com/2025/08/20/QCnet/index.html">
 <meta property="og:site_name" content="jxWu&#39;s blogs">
+<meta property="og:description" content="agent-centric：输入是X &#x3D; [x_1, x_2, …, x_T]其中每个x_i是时间i的融合特征输出是自回归地输出T_futrue个坐标作为未来轨迹[ (c_x^{t+1}, c_y^{t+1}), (c_x^{t+2}, c_y^{t+2}), …, (c_x^{t+T_future}, c_y^{t+T_future}) ] scene-centric query-c">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2025-08-18T14:20:01.000Z">
-<meta property="article:modified_time" content="2025-08-18T14:20:01.393Z">
+<meta property="article:published_time" content="2025-08-20T13:36:17.000Z">
+<meta property="article:modified_time" content="2025-08-20T15:12:36.327Z">
 <meta property="article:author" content="jxWu">
 <meta name="twitter:card" content="summary">
   
@@ -71,10 +73,10 @@
 </header>
 
       <div class="outer">
-        <section id="main"><article id="post-AI环境配置：vscode-docker-wsl-conda“" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-QCnet" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/2025/08/18/AI%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%EF%BC%9Avscode-docker-wsl-conda%E2%80%9C/" class="article-date">
-  <time class="dt-published" datetime="2025-08-18T14:20:01.000Z" itemprop="datePublished">2025-08-18</time>
+    <a href="/2025/08/20/QCnet/" class="article-date">
+  <time class="dt-published" datetime="2025-08-20T13:36:17.000Z" itemprop="datePublished">2025-08-20</time>
 </a>
     
   </div>
@@ -85,7 +87,7 @@
         
   
     <h1 class="p-name article-title" itemprop="headline name">
-      AI环境配置：vscode+docker+wsl+conda“
+      QCnet
     </h1>
   
 
@@ -93,11 +95,20 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        
+        <ul>
+<li>agent-centric：<br>输入是X &#x3D; [x_1, x_2, …, x_T]其中每个x_i是时间i的融合特征<br>输出是<strong>自回归</strong>地输出T_futrue个坐标作为未来轨迹[ (c_x^{t+1}, c_y^{t+1}), (c_x^{t+2}, c_y^{t+2}), …, (c_x^{t+T_future}, c_y^{t+T_future}) ]</li>
+<li>scene-centric</li>
+<li>query-centric<br>input：输入的features和<strong>queries</strong>(可学习向量)<br>output:对应queries数量的向量</li>
+</ul>
+<blockquote>
+<p>对query-centric深入的理解可以看(End-to-end object detection with transformers)中如何利用query做多目标检测。</p>
+</blockquote>
+<p>Fourier feature：将低维向量映射到高维空间的方法，以学习高频信息   </p>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2025/08/18/AI%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%EF%BC%9Avscode-docker-wsl-conda%E2%80%9C/" data-id="cmeha8xv30000scvaav1gdc1w" data-title="AI环境配置：vscode+docker+wsl+conda“" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://example.com/2025/08/20/QCnet/" data-id="cmek43q3c0002y0vaeq18gc39" data-title="QCnet" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -108,9 +119,9 @@
 <nav id="article-nav">
   
   
-    <a href="/2025/08/18/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2025/08/18/AI%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%EF%BC%9Avscode-docker-wsl-cuda/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Hello World</div>
+      <div class="article-nav-title">AI环境配置：vscode+docker+wsl+cuda</div>
     </a>
   
 </nav>
@@ -148,7 +159,11 @@
       <ul>
         
           <li>
-            <a href="/2025/08/18/AI%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%EF%BC%9Avscode-docker-wsl-conda%E2%80%9C/">AI环境配置：vscode+docker+wsl+conda“</a>
+            <a href="/2025/08/20/QCnet/">QCnet</a>
+          </li>
+        
+          <li>
+            <a href="/2025/08/18/AI%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%EF%BC%9Avscode-docker-wsl-cuda/">AI环境配置：vscode+docker+wsl+cuda</a>
           </li>
         
           <li>
